@@ -1,0 +1,30 @@
+{
+  "name": "congressus-api",
+  "version": "0.1.0",
+  "description": "An api library for the congressus API",
+  "main": "build/lib.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mees-/congressus-api.git"
+  },
+  "keywords": [
+    "congressus",
+    "api"
+  ],
+  "author": "Mees van Dijk <mees@mees.io> (https://mees.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mees-/congressus-api/issues"
+  },
+  "homepage": "https://github.com/mees-/congressus-api#readme",
+  "devDependencies": {
+    "@tsconfig/node18": "^1.0.0",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
